@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>RobloxStyle MX</title>
+  <style>
+    * {
+      font-family: Arial, sans-serif;
+      font-weight: bold;
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      background-color: #ffffff;
+      color: black;
+      line-height: 1.6;
+    }
+
+    nav {
+      background-color: #ff4757;
+      padding: 15px;
+      text-align: center;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+
+    nav button {
+      background-color: #fff;
+      border: none;
+      padding: 10px 20px;
+      margin: 5px;
+      cursor: pointer;
+      font-size: 16px;
+      border-radius: 8px;
+      transition: 0.3s;
+    }
+
+    nav button:hover {
+      background-color: #ffd6d6;
+    }
+
+    header {
+      background: #f0f0f0;
+      color: black;
+      padding: 60px 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 48px;
+      text-shadow: 2px 2px 4px rgba(100, 100, 100, 0.3);
+    }
+
+    header p {
+      font-size: 24px;
+      margin-top: 10px;
+    }
+
+    section {
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    h2 {
+      font-size: 32px;
+      color: #ff4757;
+      margin-bottom: 20px;
+      text-align: center;
+    }
+
+    .productos {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+    }
+
+    .producto {
+      border: 1px solid #ccc;
+      border-radius: 10px;
+      padding: 10px;
+      width: 200px;
+      text-align: center;
+      background-color: #fafafa;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+
+    .producto img {
+      width: 100%;
+      border-radius: 10px;
+    }
+
+    .producto h3 {
+      margin-top: 10px;
+      font-size: 18px;
+    }
+
+    footer {
+      text-align: center;
+      background-color: #ff4757;
+      color: white;
+      padding: 15px;
+      margin-top: 40px;
+    }
+
+    ul {
+      list-style: square;
+      padding-left: 20px;
+    }
+
+    a {
+      color: #ff4757;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    pre {
+      background-color: #f7f7f7;
+      padding: 15px;
+      overflow-x: auto;
+      border-radius: 8px;
+    }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <button onclick="location.href='#inicio'">Inicio</button>
+    <button onclick="location.href='#productos'">Productos</button>
+    <button onclick="location.href='#contabilidad'">Contabilidad</button>
+    <button onclick="location.href='#contacto'">Contacto</button>
+  </nav>
+
+  <header id="inicio">
+    <h1>RobloxStyle MX</h1>
+    <p>🎮 Moda gamer inspirada en el universo Roblox 👕✨</p>
+  </header>
+
+  <section id="productos">
+    <h2>Productos Destacados</h2>
+    <div class="productos">
+      <div class="producto">
+        <img src="https://cdn.pixabay.com/photo/2022/03/02/15/06/roblox-7045111_1280.png" alt="Playera Roblox">
+        <h3>Playera Roblox Gamer</h3>
+        <p>$250.00 MXN</p>
+        <button>Comprar</button>
+      </div>
+      <div class="producto">
+        <img src="https://cdn.pixabay.com/photo/2022/02/21/09/28/roblox-7024963_1280.png" alt="Sudadera Roblox">
+        <h3>Sudadera RobloxStyle</h3>
+        <p>$480.00 MXN</p>
+        <button>Comprar</button>
+      </div>
+      <div class="producto">
+        <img src="https://cdn-icons-png.flaticon.com/512/7594/7594377.png" alt="Gorra Roblox">
+        <h3>Gorra RobloxStyle</h3>
+        <p>$150.00 MXN</p>
+        <button>Comprar</button>
+      </div>
+      <div class="producto">
+        <img src="https://cdn-icons-png.flaticon.com/512/743/743007.png" alt="Mochila Roblox">
+        <h3>Mochila Gamer Roblox</h3>
+        <p>$350.00 MXN</p>
+        <button>Comprar</button>
+      </div>
+      <div class="producto">
+        <img src="https://cdn-icons-png.flaticon.com/512/776/776640.png" alt="Stickers Roblox">
+        <h3>Stickers Roblox</h3>
+        <p>$50.00 MXN</p>
+        <button>Comprar</button>
+      </div>
+    </div>
+  </section>
+
+  <section id="contabilidad">
+    <h2>Contabilidad</h2>
+    <p>En <strong>RobloxStyle MX</strong> llevamos la contabilidad de forma ordenada utilizando:</p>
+    <ul>
+      <li>📘 Sistema de partida doble</li>
+      <li>📊 Registros en hojas de cálculo</li>
+      <li>📆 Reportes mensuales y estados financieros</li>
+    </ul>
+
+    <h3>📝 Asiento contable</h3>
+    <pre>
+Fecha: 10 junio 2025
+Cliente            $500.00
+     a Ventas              $500.00
+    </pre>
+
+    <h3>📘 Cuentas T</h3>
+    <pre>
+Cliente
+------------------------
+| Debe   | Haber       |
+|--------|-------------|
+| 500.00 |             |
+
+Ventas
+------------------------
+| Debe   | Haber       |
+|--------|-------------|
+|        | 500.00      |
+    </pre>
+
+    <h3>📊 Balanza de Comprobación</h3>
+    <pre>
+Cuenta       Debe      Haber
+-------------------------------
+Cliente      500.00    -
+Ventas       -         500.00
+Total        500.00    500.00
+    </pre>
+
+    <h3>📈 Estado de Resultados</h3>
+    <pre>
+Ingresos:                    $2,500.00
+Costos:                      $1,400.00
+Gastos:                      $400.00
+-------------------------------
+Utilidad neta:               $700.00
+    </pre>
+
+    <h3>📋 Balance General</h3>
+    <pre>
+ACTIVOS:
+Caja:                       $800.00
+Clientes:                   $500.00
+
+PASIVOS:
+Proveedores:                $300.00
+
+CAPITAL:
+Capital:                    $300.00
+Utilidad:                   $700.00
+
+Total Activo = Total Pasivo + Capital = $1,300.00
+    </pre>
+  </section>
+
+  <section id="contacto">
+    <h2>Contacto</h2>
+    <p>Puedes contactarnos por:</p>
+    <ul>
+      <li>📧 Email: <a href="mailto:robloxstylemx@gmail.com">robloxstylemx@gmail.com</a></li>
+      <li>📱 WhatsApp: <a href="https://wa.me/5211234567890">+52 123 456 7890</a></li>
+      <li>📸 Instagram: <a href="https://instagram.com/robloxstyle.mx">@robloxstyle.mx</a></li>
+      <li>🎵 TikTok: <a href="https://tiktok.com/@robloxstylemx">@robloxstylemx</a></li>
+      <li>💬 Threads: <a href="https://www.threads.net/@robloxstylemx">@robloxstylemx</a></li>
+    </ul>
+  </section>
+
+  <footer>
+    &copy; 2025 RobloxStyle MX - Todos los derechos reservados.
+  </footer>
+
+</body>
+</html>
